@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Chilanka;
+    src: url('../fonts/Chilanka-Regular.ttf');
+   
+  }
+
+  @font-face {
+    font-family: Exo;
+    src: url('../fonts/Exo-VariableFont_wght.ttf');
+   
+  }
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Chilanka';
+    margin: 0;
+    
+} 
+
+
+/* header */
+
+.header{
+    font-family: 'Exo';
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: #DB1414 1px solid;
+    border-radius: 30px;
+    width: 680px;
+    padding: 0;
+    background-color: rgba(217, 217, 217, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%); 
+    -webkit-box-shadow: 0 3px 10px -6px black;
+       -moz-box-shadow: 0 3px 10px -6px black;
+            box-shadow: 0 3px 10px -6px black;
+    z-index: 2;
+}
+
+.link{
+    text-decoration: none;
+    color: #DB1414;
+    font-size: 17px;
+    margin: -5px;
+    font-weight: 500;
+}
+
+
+
+/* home */
+
+#home{
+    background: url('/assets/images/home/bg-img.svg') bottom right no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.home-left{
+    margin-top: 480px;
+    margin-left: 100px;
+}
+
+.home-text1{
+    font-size: 25px;
+    font-weight: 599;
+    margin: 20px;
+}
+
+.text1{
+    margin-left: 200px;
+}
+
+.home-text2{
+    font-size: 65px;
+    font-weight: 550;
+    text-shadow: 1px 3px #000;
+    color: #fff;
+    margin: 0;
+}
+
+
+.home-right{
+    margin-top: 180px;
+    margin-left: -50px;
+}
+
+
+/* facility */
+
+
+#facilities{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.facility-container{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.facility-para{
+    font-size: 35px;
+    font-weight: 550;
+}
