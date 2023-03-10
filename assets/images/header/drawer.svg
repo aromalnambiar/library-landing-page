@@ -1,9 +1,3 @@
-<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="36" height="36" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_3545_152" transform="scale(0.0111111)"/>
-</pattern>
-<image id="image0_3545_152" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4klEQVR4nO3bwWkDMRAF0MU3p0/NXWrAPdgJdpVJLjtXGacAgxYsL+Q9UAOfYQT6aFkAAAAAAAAAeJ8e8ZEtvrLGb7boTjzL4Cdr+ey1HoeDzhY34cbogN3Gpvl0OqytpKBjKOi1xfrITtBtZ0FbHbEx7HIdW9CP9VHrMVtc/ha9y7A/zaCW76zlvOkyBAAAAAD455SzMfLor5zNuaWFcjYnBK2cbXMmWjnbZq0O5Wx/acDKWQAAAACAzZSzMfImrZzNuUc5m3vsDH1RDuVszl0Fytl8e6jKWQAAAAAAAIBlb+77fV8CYHqbZgAAAABJRU5ErkJggg=="/>
-</defs>
+<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.574999 13.0285H18V15.3035H0.574999V13.0285ZM0.574999 6.87617L18 6.87617L18 9.15117L0.574999 9.15117V6.87617ZM0.574999 0.723828L18 0.723828V2.99883L0.574999 2.99883V0.723828Z" fill="white"/>
 </svg>
