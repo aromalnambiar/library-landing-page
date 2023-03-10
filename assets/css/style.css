@@ -103,7 +103,11 @@ body{
 
 .home-right{
     margin-top: 180px;
-    margin-left: -50px;
+
+}
+
+.home-img{
+    animation: 2s anim-lineUp ease-out ;
 }
 
 
@@ -473,3 +477,38 @@ span{
         margin-top: 50px;
     }
 }
+
+p{
+    animation: 2s anim-lineUp ease-out ;
+  }
+
+img{
+    transform: scale(0.94);
+    animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1) ;
+}
+
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+      }
+  }
+
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
