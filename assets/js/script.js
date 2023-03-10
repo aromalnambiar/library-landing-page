@@ -2,8 +2,7 @@
 
 //   scroll
 
-  const slider = document.querySelector('.team_list');
-  const sliders = document.querySelector('.product_list');
+  const slider = document.querySelector('.about-list');
 
   let isDown = false;
   let startX;
@@ -33,29 +32,7 @@
   });
 
 
-  sliders.addEventListener('mousedown', (e) => {
-    isDown = true;
-    sliders.classList.add('active');
-    startX = e.pageX - sliders.offsetLeft;
-    scrollLeft = sliders.scrollLeft;
-  });
-  sliders.addEventListener('mouseleave', () => {
-    isDown = false;
-    sliders.classList.remove('active');
-  });
-  sliders.addEventListener('mouseup', () => {
-    isDown = false;
-    sliders.classList.remove('active');
-  });
-  sliders.addEventListener('mousemove', (e) => {
-    if(!isDown) return;
-    e.preventDefault();
-    const x = e.pageX - sliders.offsetLeft;
-    const walk = (x - startX) * 3; //scroll-fast
-    sliders.scrollLeft = scrollLeft - walk;
-    console.log(walk);
-  });
-
+  
 
 
 
@@ -64,8 +41,8 @@
 
 drawer = document.querySelector(".drawer")
 drawer.onclick = function () {
-    navBar = document.querySelector(".right")
-    navBar.classList.toggle("header_active")
+    navBar = document.querySelector(".links")
+    navBar.classList.toggle("links-active")
 }
 
 
