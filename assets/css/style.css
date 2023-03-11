@@ -86,6 +86,12 @@ body{
     font-size: 25px;
     font-weight: 599;
     margin: 20px;
+    color: #fff;
+}
+
+.home-text1 span{
+    color: #000;
+    font-weight: 200;
 }
 
 .text1{
@@ -223,7 +229,7 @@ justify-content: space-between;
 .contact-link{
     display: flex;
     text-decoration: none;
-    color: #F67266;
+    color: #A02418;
     margin-top: 1px;
     margin-bottom: 1px;
 }
@@ -324,7 +330,7 @@ span{
     .header{
         margin-bottom: auto;
         width: 100%;
-        background-color: #F67266;
+        background-color: #A02418;
         justify-content: flex-end;
         border-radius: 0px;
         top: auto;
@@ -336,7 +342,7 @@ span{
         display: block;
         left: auto;
         margin: 0px;
-        background-color: #F67266;
+        background-color: #A02418;
         width: 100%;
         margin-top: 37px;
     }

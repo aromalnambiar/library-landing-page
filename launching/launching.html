@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pn Library</title>
+</head>
+<style>
+
+body{
+    margin: 0;
+    background-image: url('./bg-img.svg') ;
+    background-position: bottom;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 380px;
+    margin-right: 370px;
+    
+}
+
+.button{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+</style>
+<body>
+    <div class="wrapper">
+       <img src="./img1.png" alt="img">
+       <img src="./img2.png" alt="img">
+       <img src="./img1.png" alt="img">
+       <img src="./img2.png" alt="img">
+    </div>
+    <a href="https://pnlibrary.com/">
+        <img src="./button.svg" alt="img" class="button">
+    </a>
+    
+</body>
+<script>
+
+</script>
+</html>
